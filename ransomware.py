@@ -25,7 +25,7 @@ def encrypt(file):
 	with open(file, 'rb') as org_file:
 		plain_data = org_file.read()
 
-		enc_file_name = file + '.encrypted'
+		enc_file_name = file + '.she11z'
 		encrypted_data = cipher_suite.encrypt(plain_data)
 
 		with open(enc_file_name, 'wb') as enc_file:
